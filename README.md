@@ -1,0 +1,1 @@
+Step one integrate Firebase to the project
