@@ -115,10 +115,10 @@ const Settings = () => {
     </DropdownMenuLabel>
     <DropdownMenuSeparator />
     <DropdownMenuGroup>
-    <DropdownMenuItem>Github
+    <DropdownMenuItem onClick={() => window.location.href = 'https://github.com/Rohitlodhii/autocal-frontend'} >Github
         <DropdownMenuShortcut><FaGithub/></DropdownMenuShortcut>
     </DropdownMenuItem>
-    <DropdownMenuItem>Instagram
+    <DropdownMenuItem onClick={() => window.location.href = 'https://www.instagram.com/rohitlodhiii'}>Instagram
     <DropdownMenuShortcut><FaInstagram/></DropdownMenuShortcut>
     </DropdownMenuItem>
     </DropdownMenuGroup>
